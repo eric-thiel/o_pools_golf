@@ -56,7 +56,7 @@ reactable(data, columns = list(
   }),
   Team = colDef(minWidth =100, align = "center"),
   Score = colDef(minWidth =100, align = "center"),
-  `6+ Golfers on Weekend` = colDef(minWidth =100, align = "center")
+  `6+ Golfers on Weekend` = colDef(minWidth =100, align = "center", format = colFormat(percent = TRUE) )
   
   
 ), fullWidth = TRUE, highlight = TRUE

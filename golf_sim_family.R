@@ -162,7 +162,7 @@ run_sim <- function(nsims){
 
 
 nsims = 10000
-#g = run_sim(10000)
+g = run_sim(10000)
 
 working = g
 
